@@ -74,6 +74,7 @@ keymap('n', '<Space>bl', ':BufferOrderByLanguage<CR>', opts)
 -------- FLUTTER ---------
 keymap('n', '<A-R>', ':FlutterRun<CR>', opts)
 keymap('n', '<A-w>', ':FlutterOutlineOpen<CR>', {})
+keymap('n', '<A-S>', ':FlutterRestart<CR>', {})
 
 local function niko()
 	print 'niko ardia'
